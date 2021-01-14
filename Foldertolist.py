@@ -26,7 +26,7 @@ for x in entries:
     datesc.append(x[0])
     filenamesc.append(x[1])
 
-
+# excel
 wbstatus = xw.books('status.xlsx')
 ws1 = wbstatus.sheets['tab1']
 ws2 = wbstatus.sheets['tab2']
